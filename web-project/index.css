@@ -783,8 +783,44 @@ COURSES
 }
 
 
+/*------------
+VIDEO
+-------------*
+.video {
+    background-size: contain;
+    background-position: center top;
+}
 
+.video-banner  {
+    position: relative;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 40px;
+}
 
+.video .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--radical-blue);
+    font-size: var(--fs-5);
+    padding: 20px;
+    color: white;
+    border-radius: var(--radius-circle);
+    box-shadow:  0 0 0 0 var(--white);
+    z-index: 1;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow:  0 0 0 0 var(--white);}
+    100% { box-shadow:  0 0 0 18px var(--white);}
+}
+
+.video-banner::after {
+    inset: 0;
+    background-color: var(--black_01);
+}
 
 
 

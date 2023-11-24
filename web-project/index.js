@@ -63,7 +63,7 @@ ScrollReveal().reveal(".show-once", {
 });
 
 ScrollReveal().reveal(".title", {
-  duration: 3000,
+  duration: 2000,
   origin: "top",
   distance: "400px",
   easing: "cubic-bezier(0.5, 0, 0, 1)",
@@ -74,18 +74,18 @@ ScrollReveal().reveal(".title", {
 });
 
 ScrollReveal().reveal(".fade-in", {
-  duration: 5000,
+  duration: 2000,
   move: 0
 });
 
 ScrollReveal().reveal(".scaleUp", {
-  duration: 4000,
+  duration: 2000,
   scale: 0.85
 });
 
 ScrollReveal().reveal(".flip", {
-  delay: 500,
-  duration: 1600,
+  delay: 450,
+  duration: 1000,
   rotate: {
     x: 20,
     z: 20
@@ -93,21 +93,21 @@ ScrollReveal().reveal(".flip", {
 });
 
 ScrollReveal().reveal(".slide-right", {
-  duration: 1600,
+  duration: 1000,
   origin: "left",
-  distance: "300px",
+  distance: "100px",
   easing: "ease-in-out"
 });
 
 ScrollReveal().reveal(".slide-left", {
-    duration: 1600,
+    duration: 1000,
     origin: "right", 
-    distance: "300px",
+    distance: "100px",
     easing: "ease-in-out"
   });
 
 ScrollReveal().reveal(".slide-up", {
-  duration: 1600,
+  duration: 1000,
   origin: "bottom",
   distance: "100px",
   easing: "cubic-bezier(.37,.01,.74,1)",
@@ -116,7 +116,7 @@ ScrollReveal().reveal(".slide-up", {
 });
 
 ScrollReveal().reveal(".slide-down", {
-    duration: 1600,
+    duration: 1000,
     origin: "top",
     distance: "100px",
     easing: "cubic-bezier(.37,.01,.74,1)",
